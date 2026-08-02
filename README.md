@@ -62,3 +62,20 @@ SUBJECT_04 es un juego de terror psicológico donde el enemigo no es una criatur
 ---
 
 ## 🗂️ Estructura del Proyecto
+ Assets/_Project/
+├── Animations/ # Clips de animación y controladores
+├── Art/ # Modelos, texturas y materiales
+│ ├── Characters/ # Personajes (Player, Enemies)
+│ ├── Environments/ # Escenarios y props
+│ └── UI/ # Elementos de interfaz
+├── Audio/ # Sonidos y música
+├── Prefabs/ # Prefabs reutilizables
+├── Scenes/ # Escenas del juego
+├── Scripts/ # Todos los scripts
+│ ├── Camera/ # Cámara y efectos visuales
+│ ├── Player/ # Movimiento, interacción, inventario
+│ ├── Enemies/ # Criatura y comportamiento
+│ ├── Managers/ # GameManager, DirectorIA, InstabilityManager
+│ └── Utilities/ # Scripts de ayuda y extensiones
+├── Settings/ # Configuraciones de render pipeline
+└── ThirdParty/ # Assets de terceros
