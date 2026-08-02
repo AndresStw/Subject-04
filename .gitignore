@@ -1,0 +1,186 @@
+# ============================================================
+# Unity .gitignore
+# Optimizado para GitHub (Unity 2022/2023/Unity 6)
+# Basado en el oficial de GitHub con mejoras adicionales.
+# ============================================================
+
+# ============================================================
+# Unity Generated Folders
+# ============================================================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+ServerData/
+
+# ============================================================
+# Visual Studio / Rider / VS Code
+# ============================================================
+
+.vs/
+.idea/
+.vscode/
+.consulo/
+.gradle/
+
+# ============================================================
+# Unity Auto Generated Files
+# ============================================================
+
+ExportedObj/
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+*.ipch
+
+# Rider settings
+*.DotSettings.user
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+mono_crash.*
+sysinfo.txt
+
+# ============================================================
+# Blender
+# ============================================================
+
+*.blend1
+*.blend1.meta
+
+# ============================================================
+# Unity Crash / Profiling
+# ============================================================
+
+*.snap
+crashlytics-build.properties
+
+# ============================================================
+# Build Outputs
+# ============================================================
+
+*.apk
+*.aab
+*.app
+*.exe
+*.ipa
+*.unitypackage
+*.unitypackage.meta
+
+# Compressed builds
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ============================================================
+# Addressables
+# ============================================================
+
+Assets/StreamingAssets/aa*
+Assets/AddressableAssetsData/link.xml*
+Assets/Addressables_Temp*
+Assets/AddressableAssetsData/*/*.bin*
+Assets/AddressableAssetsData/*/*.hash
+Assets/AddressableAssetsData/*/*.json
+
+# ============================================================
+# Visual Scripting
+# ============================================================
+
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# ============================================================
+# Test Runner
+# ============================================================
+
+InitTestScene*.unity*
+Assets/InitTestScene*.unity*
+
+# ============================================================
+# JetBrains Rider Plugin
+# ============================================================
+
+Assets/Plugins/Editor/JetBrains*
+
+# ============================================================
+# Plastic SCM (Unity Version Control)
+# ============================================================
+
+.plastic/
+
+# ============================================================
+# Documentation
+# ============================================================
+
+Documentation~
+
+# ============================================================
+# Operating System Files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+.directory
+
+# ============================================================
+# Backup Folders
+# ============================================================
+
+Backup*/
+Backups*/
+
+# ============================================================
+# Cache Files
+# ============================================================
+
+*.cache
+
+# ============================================================
+# FMOD (Opcional)
+# Descomenta si generas automáticamente los bancos
+# ============================================================
+
+# Assets/StreamingAssets/*.bank
+
+# ============================================================
+# IMPORTANT
+# ============================================================
+# NO ignores:
+#
+# Assets/
+# Packages/
+# ProjectSettings/
+# *.meta
+#
+# Unity necesita todos los archivos .meta para mantener
+# las referencias entre assets.
+# ============================================================
