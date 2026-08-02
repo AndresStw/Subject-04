@@ -60,6 +60,11 @@ SUBJECT_04 es un juego de terror psicológico donde el enemigo no es una criatur
 - **Control de Versiones**: Git, GitHub
 
 ---
+<img width="1310" height="706" alt="image" src="https://github.com/user-attachments/assets/3ecc9941-591e-4dba-ab00-2ce5f99163b0" />
+<img width="1301" height="660" alt="image" src="https://github.com/user-attachments/assets/1c469868-9d6f-4ab9-a574-474668112b93" />
+![Uploading image.png…]()
+
+
 
 ## 🗂️ Estructura del Proyecto
  Assets/_Project/
