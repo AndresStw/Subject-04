@@ -1,13 +1,31 @@
 # 🧪 SUBJECT_04
 
 ![Unity](https://img.shields.io/badge/Unity-6.0-000000?style=flat&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-11.0-239120?style=flat&logo=csharp&logoColor=white)
-![Estado](https://img.shields.io/badge/Estado-En_Desarrollo-yellow)
+![C%23](https://img.shields.io/badge/C%23-11.0-239120?style=flat&logo=csharp&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-EN_PAUSA-orange)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)
 
 ### 🧠 Juego de Terror Psicológico Multijugador
 
 > *"Un experimento psicológico donde una IA estudia cómo tomas decisiones cuando la información deja de ser confiable."*
+
+---
+
+## ⏸️ Estado del Proyecto: EN PAUSA
+
+**Este proyecto está actualmente pausado.** El desarrollo se detuvo para priorizar otros proyectos y aprender nuevas herramientas. Este README se conserva como documentación del estado en el que quedó, para poder retomarlo sin perder contexto.
+
+### 📌 Resumen de la pausa
+
+| Aspecto | Detalle |
+|---------|---------|
+| **Estado** | Pausado (no abandonado) |
+| **Motivo** | Reorientación de prioridades y aprendizaje de nuevas herramientas |
+| **Último avance** | Sistemas base de movimiento, cámara, interacción e inventario funcionales |
+| **Qué falta** | Sistemas de IA, multijugador y pulido visual |
+| **Para retomar** | Ver sección "Cómo retomar este proyecto" al final |
+
+> 💡 **Nota personal:** Este proyecto sigue siendo una idea que quiero terminar. La pausa es temporal y estratégica, no un descarte.
 
 ---
 
@@ -24,28 +42,30 @@ SUBJECT_04 es un juego de terror psicológico donde el enemigo no es una criatur
 
 ---
 
-## 🎯 Características Principales
+## 🎯 Características
 
-### ✅ Sistemas Implementados
+### ✅ Sistemas Implementados (funcionales al momento de la pausa)
 
-| Sistema | Descripción |
-|---------|-------------|
-| **Movimiento en 3ra Persona** | Cámara orbital, agachado, giros en idle, velocidades diferenciadas. |
-| **Cámara Estilo RE4** | Órbita libre, cambio de hombro (Q), colisiones con obstáculos. |
-| **Interacción con Objetos** | Raycasting, resaltado visual, prompt en UI, puertas y objetos recogibles. |
-| **Puertas Espaciales** | Animación deslizante/rotatoria, auto-cierre, múltiples zonas de interacción. |
-| **Sistema de Inestabilidad** | Evalúa el estado psicológico de cada jugador. |
-| **Head Look IK** | Mirada realista con límites de ángulo. |
-| **Sistema de Agachado** | Toggle con Ctrl, transiciones suaves, altura de collider dinámica. |
-| **Sistema de Inventario** | Almacenamiento de objetos, límite de slots. |
+| Sistema | Descripción | Estado |
+|---------|-------------|--------|
+| **Movimiento en 3ra Persona** | Cámara orbital, agachado, giros en idle, velocidades diferenciadas. | ✅ Completo |
+| **Cámara Estilo RE4** | Órbita libre, cambio de hombro (Q), colisiones con obstáculos. | ✅ Completo |
+| **Interacción con Objetos** | Raycasting, resaltado visual, prompt en UI, puertas y objetos recogibles. | ✅ Completo |
+| **Puertas Espaciales** | Animación deslizante/rotatoria, auto-cierre, múltiples zonas de interacción. | ✅ Completo |
+| **Sistema de Inestabilidad** | Evalúa el estado psicológico de cada jugador. | ✅ Completo |
+| **Head Look IK** | Mirada realista con límites de ángulo. | ✅ Completo |
+| **Sistema de Agachado** | Toggle con Ctrl, transiciones suaves, altura de collider dinámica. | ✅ Completo |
+| **Sistema de Inventario** | Almacenamiento de objetos, límite de slots. | ✅ Completo |
 
-### 🚧 En Desarrollo
+### 🚧 Pendiente para cuando se retome
 
-- Sistema de Radio (comunicación manipulada por IA)
-- Sistema de Protocolos (objetivos generados por combinación)
-- Sistema de Perfiles Psicológicos (seguimiento de decisiones)
-- Sistema de Presupuesto de IA (gasto de puntos en manipulaciones)
-- Multijugador (Netcode for GameObjects)
+- [ ] Sistema de Radio (comunicación manipulada por IA)
+- [ ] Sistema de Protocolos (objetivos generados por combinación)
+- [ ] Sistema de Perfiles Psicológicos (seguimiento de decisiones)
+- [ ] Sistema de Presupuesto de IA (gasto de puntos en manipulaciones)
+- [ ] Multijugador (Netcode for GameObjects)
+- [ ] Pulido visual y dirección de arte
+- [ ] Audio y atmósfera sonora
 
 ---
 
@@ -60,27 +80,14 @@ SUBJECT_04 es un juego de terror psicológico donde el enemigo no es una criatur
 - **Control de Versiones**: Git, GitHub
 
 ---
+
+## 📸 Capturas del estado actual
+
+> *(Capturas tomadas antes de la pausa)*
+
 <img width="1310" height="706" alt="image" src="https://github.com/user-attachments/assets/3ecc9941-591e-4dba-ab00-2ce5f99163b0" />
 <img width="1301" height="660" alt="image" src="https://github.com/user-attachments/assets/1c469868-9d6f-4ab9-a574-474668112b93" />
-![Uploading image.png…]()
 
-
+---
 
 ## 🗂️ Estructura del Proyecto
- Assets/_Project/
-├── Animations/ # Clips de animación y controladores
-├── Art/ # Modelos, texturas y materiales
-│ ├── Characters/ # Personajes (Player, Enemies)
-│ ├── Environments/ # Escenarios y props
-│ └── UI/ # Elementos de interfaz
-├── Audio/ # Sonidos y música
-├── Prefabs/ # Prefabs reutilizables
-├── Scenes/ # Escenas del juego
-├── Scripts/ # Todos los scripts
-│ ├── Camera/ # Cámara y efectos visuales
-│ ├── Player/ # Movimiento, interacción, inventario
-│ ├── Enemies/ # Criatura y comportamiento
-│ ├── Managers/ # GameManager, DirectorIA, InstabilityManager
-│ └── Utilities/ # Scripts de ayuda y extensiones
-├── Settings/ # Configuraciones de render pipeline
-└── ThirdParty/ # Assets de terceros
